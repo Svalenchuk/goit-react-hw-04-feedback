@@ -1,0 +1,28 @@
+.statistics__container {
+    display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .statistics__title{
+    margin: 0; 
+     padding: 20px;  
+    }
+    
+    .statistics__list{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        gap: 8px; 
+        padding-bottom: 25px;
+        list-style: none;  
+    }
+    
+    .statistics__positive {
+        font-size: 24px;  
+        color:#3660b3;   
+    }
+     
